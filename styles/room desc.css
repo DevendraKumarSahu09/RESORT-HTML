@@ -1,0 +1,247 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255); /* Add transparency to the background color */
+    z-index: 3;
+  }
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    box-shadow: 0px 1px 19px rgb(166, 166, 166);
+}
+
+.logo img{
+    width: auto;
+    height: 70px;
+    padding-left: 20px;
+}
+
+.navbar_button {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.navbar_button a{
+    margin-right: 0;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 50px;
+    color: #04767B;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.room_img{
+    margin-top:30px;
+    margin-left:80px;
+    width: 549px;
+    height: 658px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 21px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+.back-btn{
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 660px;
+    width: 130px;
+    flex-shrink: 0;
+    height: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #04767B;
+    font-style: normal;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 900;
+    border-radius: 11px;
+    border: 1px solid #00BBC4;
+    background: #FFF;
+}
+
+
+.content{
+    margin-left: 60px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.h2{
+    width: 316px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.rating{
+    margin-top:10px;
+    width: 130px;
+    color: #f0be0b;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph1{
+    margin-top: 50px;
+    width: 567px;
+    flex-shrink: 0;
+    height: 91px;
+    color: rgba(38, 32, 0, 0.36);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h3{
+    margin-top:50px;
+    width: 152px;
+    height: 32px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.50);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph2{
+    margin-top:20px;
+    margin-left:20px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.36);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amount{
+    margin-top:40px;
+    width: 279px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amount2{
+    margin-left:300px;
+    margin-top:-30px;
+    width: 67px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.amount3{
+    margin-top:20px;
+    width: 149px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.amount4{
+    margin-left:160px;
+    margin-top:-20px;
+    width: 149px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn_flex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-proceed {
+    background-image: linear-gradient(100deg, #144e51db 0%, #00EAF5 51%, #22c0c8 100%)
+}
+
+.btn-proceed{
+    margin-top:-150px;
+    padding: 15px 30px;
+    margin-left: 650px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0px 0px 14px -7px #00EAF5;
+    z-index: 1;
+}
+
+.btn-proceed:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-proceed:active {
+    transform: scale(0.95);
+}

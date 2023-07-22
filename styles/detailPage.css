@@ -1,0 +1,276 @@
+.main{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding:0 90px 90px 90px;
+    position: relative;
+}
+
+label{
+    color: #0000008F;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content:start;
+}
+
+.bookedlogo{
+    font-size: 1.5rem;
+    padding: auto;
+}
+.booked{
+    color: #00B412;
+    margin-top: 40px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border-color: #67676773;
+    color: #666666;
+}
+
+.input2{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #67676773;
+}
+
+.package{
+    width: 140px;
+}
+
+.row21{
+    justify-content: space-between;
+    margin-left: -10px;
+}
+.name{
+    margin-left: 10px;
+}
+
+input:hover{
+    outline: none;
+}
+
+.roomDetail{
+    background-color: rgb(255, 255, 255);
+    width: 650px;
+    height: 530px;
+    border-radius: 15px 0 0 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.548);
+}
+
+.row1{
+    align-items: self-start;
+}
+
+.row2{
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+.row3{
+    align-items: self-start;
+}
+
+.adult{
+    width: 250px;
+}
+
+.small{
+    font-size: 0.7rem;
+}
+
+.note{
+    width: 567px;
+    height: 51px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.36);
+    font-family: Be Vietnam Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h2{
+    width: 316px;
+    height: 46px;
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+.rating{
+    width: 200px;
+    height: 30px;
+    color: #f0be0b;
+    display: flex;
+    padding-left: -50px;
+    margin-top:-110px;
+    margin-left: -135px;
+    margin-bottom: 20px;
+}
+
+.paragraph1{
+    margin-top: 50px;
+    width: 567px;
+    height: 91px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.36);
+    font-family: Be Vietnam Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h3{
+    align-items: self-start;
+    margin-top: 30px;
+    width: 152px;
+    height: 32px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.50);
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph2{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 567px;
+    height: 107px;
+    flex-shrink: 0;
+    color: rgba(38, 32, 0, 0.36);
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amount{
+    margin-top:40px;
+    width: 279px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amount2{
+    margin-left:300px;
+    margin-top:-30px;
+    width: 67px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.amount3{
+    margin-top:20px;
+    width: 149px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.amount4{
+    margin-left:160px;
+    margin-top:-20px;
+    width: 149px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #8F8F8F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.back-btn{
+    margin-left: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #04767B;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 11px;
+    border: 1px solid #00BBC4;
+    background: #FFF;
+}
+
+.btn_flex{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-proceed {
+    background-image: linear-gradient(100deg, #144e51db 0%, #00EAF5 51%, #22c0c8 100%)
+}
+
+.btn-proceed{
+    
+    padding: 15px 30px;
+    margin-left: 47%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0px 0px 14px -7px #00EAF5;
+    z-index: 1;
+}
+
+.btn-proceed:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-proceed:active {
+    transform: scale(0.95);
+}
